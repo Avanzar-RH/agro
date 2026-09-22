@@ -21,7 +21,7 @@
 
     header {
       background: linear-gradient(rgba(27, 67, 50, 0.9), rgba(27, 67, 50, 0.95)), 
-                  url('img/imagen_1.jpg') center/cover;
+                  url('./imagen_1.jpg') center/cover;
       color: white; padding: 45px 20px; text-align: center; border-bottom: 4px solid var(--dorado);
     }
 
@@ -61,7 +61,7 @@
 
     .laudo-badge { background: #ffffff; color: #1b4332; font-size: 0.75rem; padding: 8px 14px; border-radius: 6px; display: inline-block; margin-top: 15px; font-weight: 600; border: 1px solid #c8e6c9; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
 
-    /* CARDS CON RUTAS GENÉRICAS LOCALES DE IMÁGENES */
+    /* CARDS CON RUTAS DIRECTAS A LA RAÍZ */
     .nudos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-top: 18px; }
     .nudo-card-img { background: #fff; border-radius: 8px; overflow: hidden; border: 1px solid #e9ecef; box-shadow: 0 3px 8px rgba(0,0,0,0.04); }
     .nudo-img { width: 100%; height: 155px; object-fit: cover; display: block; background: #e9ecef; }
@@ -131,7 +131,7 @@
         </select>
       </div>
 
-      <!-- SLIDER INTERACTIVO DE PERCEPCIÓN DE ESTRÉS / TENSION OPERATIVA -->
+      <!-- SLIDER INTERACTIVO DE PERCEPCIÓN DE ESTRÉS / TENSIÓN OPERATIVA -->
       <div class="switch-zafra" style="display: flex; flex-direction: column; align-items: flex-start;">
         <div style="display: flex; justify-content: space-between; width: 100%; margin-bottom: 8px;">
           <strong style="font-size:0.9rem;">Tensión Operativa / Estrés Percibido en el Equipo:</strong>
@@ -144,7 +144,7 @@
       <div class="atencion-box">
         <span style="font-size: 0.85rem; font-weight: 700; color: #495057;">Nivel de Atención Operativa Requerida:</span>
         <div class="atencion-badge" id="badgeEstado" style="background: #f8d7da; color: var(--rojo-vino);">
-          🔴 ATENCIÓN URGENTE: ZAFRA COMPROMETIDA POR VACANTES
+          🔴 ATENCIÓN URGENTE: ALTO ESTRÉS Y OPERACIÓN EN RIESGO
         </div>
       </div>
 
@@ -167,7 +167,7 @@
       </div>
     </div>
 
-    <!-- CARDS CON RUTAS GENÉRICAS A CARPETA LOCAL /img/ -->
+    <!-- CARDS CON RUTAS DIRECTAS EN LA RAÍZ -->
     <div class="card-box">
       <h3 style="margin-top:0; color: var(--verde-agro); border-bottom: 2px solid var(--verde-claro); padding-bottom: 8px;">
         ⚠️ Realidades Operativas: El Costo Invisible en el Campo
@@ -178,7 +178,7 @@
 
       <div class="nudos-grid">
         
-        <!-- FOTO 1: RECURSO GENÉRICO -->
+        <!-- FOTO 1 -->
         <div class="nudo-card-img">
           <img src="./imagen_1.jpg" alt="Cuellos de botella en zafra" class="nudo-img">
           <div class="nudo-content">
@@ -187,7 +187,7 @@
           </div>
         </div>
 
-        <!-- FOTO 2: RECURSO GENÉRICO -->
+        <!-- FOTO 2 -->
         <div class="nudo-card-img">
           <img src="./imagen_2.jpg" alt="Desgaste del personal de confianza" class="nudo-img">
           <div class="nudo-content">
@@ -196,7 +196,7 @@
           </div>
         </div>
 
-        <!-- FOTO 3: RECURSO GENÉRICO -->
+        <!-- FOTO 3 -->
         <div class="nudo-card-img">
           <img src="./imagen_3.jpg" alt="Inducción y bienestar animal" class="nudo-img">
           <div class="nudo-content">
